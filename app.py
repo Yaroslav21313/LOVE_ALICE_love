@@ -149,4 +149,4 @@ def home():
 """.replace("HEART_TEXT", heart_text).replace("MY_TEXT", my_text)
 
 
-app.run()
+app.run(host="0.0.0.0", port=5000)
